@@ -2,7 +2,7 @@
 :root{
     /* colors  */
     --primaryColor:#fff;
-    --secondaryColor:#FF0066;
+    --secondaryColor:#1b98ab;
     --mainTxtColor:#000;
     --heroContentSpanColor:#FF0066;
     --btnTxtColor:#fff;
@@ -134,7 +134,7 @@ body{
     height: 10px;
     width: 0;
     border-radius: 10px;
-    background-color: #FF0066;
+    background-color: #329bab;
     transition: all 0.5s ease;
 }
 .header-nav-list > li > a:hover::after{
@@ -213,10 +213,7 @@ body{
     cursor: pointer;
     transition: all 0.5s ease;
 }
-.hero-btn button:hover{
-    transform: translateY(-5px);
-    box-shadow: 4px 4px 5px #FF006675, 8px 8px 10px #FF006650 , 10px 10px 15px #FF006625;
-}
+
 
 /* hero image  */
 .hero-image{
